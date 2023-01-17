@@ -7,3 +7,7 @@
     --white-font-color: #f9faf8;
 }
 
+/* =============== FONT =============== */
+*{
+    font-family: 'Poppins', sans-serif;
+}
