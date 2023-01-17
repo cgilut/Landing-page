@@ -10,4 +10,41 @@
 /* =============== FONT =============== */
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+
+.header-container{
+    background-color: var(--dark-background-color);
+    color: var(--white-font-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder-img{
+    width:300px;
+    height:100px;
+    background: gray;
+}
+
+.nav-line{
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-links{
+    display:flex;
+}
+
+.header-introduction{
+    display: flex;
+}
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-main{
+    width: 400px;
 }
