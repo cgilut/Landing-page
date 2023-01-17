@@ -14,11 +14,14 @@
 }
 
 
-.header-container{
-    background-color: var(--dark-background-color);
-    color: var(--white-font-color);
+header{
+    background-color: rgb(177, 177, 177);
+    color: black;
+    height: 200px;
+    border: solid 2px black;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .placeholder-img{
@@ -38,13 +41,22 @@
 
 .header-introduction{
     display: flex;
-}
+    justify-content: space-between;
+    border: solid 1px blue;
 
-.header-title{
-    display: flex;
-    flex-direction: column;
 }
 
 .header-main{
-    width: 400px;
+    border: 2px solid greenyellow;
+    width: 500px;
+}
+
+.header-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 2px red;
+    flex: 1 1 200px;
+    flex-wrap: wrap;
+    padding: 20px 100px 10px 100px;
 }
