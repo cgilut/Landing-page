@@ -96,7 +96,7 @@ header{
     justify-content: space-around;
     outline: solid 2px red;
     outline-offset: -2px;
-    margin: 0px 0px 50px 0px;
+    margin-bottom: 50px;
     gap: 80px;
     flex: 0 1 1000px;
     flex-wrap: wrap;
@@ -116,6 +116,9 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    max-width: 1200px;
+    border: 2px dashed black;
+    margin: auto;
 }
 
 .tif,
@@ -130,6 +133,7 @@ header{
 
 .information{
     background-color: white;
+
 }
 
 .picture{
@@ -137,6 +141,7 @@ header{
     flex-direction: column;
     text-align: center;
     width: 200px;
+    border: dotted 2px black;
 }
 
 .main-container{
