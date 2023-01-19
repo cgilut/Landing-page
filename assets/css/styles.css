@@ -20,14 +20,14 @@ body{
 }
 
 header{
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(99, 99, 99);
     color: black;
-    box-sizing: outline-box; /* delete this line */
+    /* box-sizing: outline-box; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 20px 0 20px 0;
-    outline: 2px solid orange;
+    outline: 6px solid orange;
     min-width: 120px;
 }
 
@@ -41,11 +41,13 @@ header{
 }
 
 .header-links{
-    outline: 5px solid black;
+    outline: 2px solid black;
+    outline-offset: 2px;
     display:flex;
     flex-wrap: wrap;
-    flex: 1 1 0px;
-    justify-content: flex-end;
+    /* flex: 1 1 0px; */
+    /* flex: 1; */
+    /* justify-content: flex-end; */
 }
 
 .link{
@@ -54,19 +56,20 @@ header{
 }
 
 .header-logo{
-    outline: 2px solid pink;
-    flex: 1 1 0px;
+    outline: 2px solid rgb(0, 3, 158);
+    outline-offset: -4px;
+    /* flex: 1 1 0px; */
 }
 
 .header-introduction{
     display: flex;
     justify-content: space-between;
-    outline: solid 1px blue;
-    outline-offset: 1px;
+    outline: solid 4px rgb(95, 0, 104);
+    outline-offset: 2px;
     flex-wrap: wrap;
-    flex: 1;
+    /* flex: 1; */
 
-}
+} 
 
 .header-main{
     outline: 2px solid greenyellow;
@@ -85,18 +88,17 @@ header{
     outline-offset: -2px;
     padding: 0px 170px 50px 170px;
     gap: 80px;
-    flex: 1;
+    /* flex: 1; */
     flex-wrap: wrap;
 }
 
 .header-signup-button{
-    align-self: flex-start;
+    /* align-self: flex-start; */
     width: 100px;
 }
 
 .info-title{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 30px;
 }
 .picture-container{
@@ -115,7 +117,8 @@ header{
 .nav-line{
     display:flex;
     justify-content: space-between;
-    outline: 4px solid rgb(211, 96, 211);
+    outline: 5px solid rgb(0, 255, 64);
+    outline-offset: 4px;
     flex-wrap: wrap;
 }
 
