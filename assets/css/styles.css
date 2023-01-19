@@ -31,6 +31,14 @@ header{
     min-width: 120px;
 }
 
+.nav-line{
+    display:flex;
+    justify-content: space-between;
+    outline: 5px solid rgb(0, 255, 64);
+    outline-offset: 4px;
+    flex-wrap: wrap;
+}
+
 .placeholder-img{
     width: auto;
     height: 200px;
@@ -112,14 +120,9 @@ header{
 .vasya,
 .kittens{
     max-width: 100%;
-}
-
-.nav-line{
-    display:flex;
-    justify-content: space-between;
-    outline: 5px solid rgb(0, 255, 64);
-    outline-offset: 4px;
-    flex-wrap: wrap;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.3), -3px 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .information{
