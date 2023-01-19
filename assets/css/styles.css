@@ -9,26 +9,30 @@
 /* =============== FONT =============== */
 *{
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
 }
 
 body{
-    background-color: black;
+    background-color: rgb(129, 129, 129);
     margin: 0 200px 0 200px;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3), -10px 0 10px rgba(0, 0, 0, 0.3);
+    outline: 2px solid black;
+    min-width: 120px;  
 }
 
 header{
     background-color: rgb(177, 177, 177);
     color: black;
-    border: solid 2px orange;
+    box-sizing: outline-box; /* delete this line */
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 20px 0 20px 0;
+    outline: 2px solid orange;
+    min-width: 120px;
 }
 
 .placeholder-img{
-    width: 400px;
+    width: auto;
     height: 200px;
     background: gray;
     display: flex;
@@ -36,28 +40,36 @@ header{
     align-items: center;
 }
 
-.nav-line{
+.header-links{
+    outline: 5px solid black;
     display:flex;
-    justify-content: space-between;
-    border: 2px solid rgb(211, 96, 211);
     flex-wrap: wrap;
+    flex: 1 1 0px;
+    justify-content: flex-end;
 }
 
-.header-links{
-    display:flex;
+.link{
+    outline: 2px solid yellow;
+    outline-offset: -1px;
+}
+
+.header-logo{
+    outline: 2px solid pink;
+    flex: 1 1 0px;
 }
 
 .header-introduction{
     display: flex;
     justify-content: space-between;
-    border: solid 1px blue;
+    outline: solid 1px blue;
+    outline-offset: 1px;
     flex-wrap: wrap;
     flex: 1;
 
 }
 
 .header-main{
-    border: 2px solid greenyellow;
+    outline: 2px solid greenyellow;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -65,15 +77,56 @@ header{
 }
 
 .header-container{
+    box-sizing: outline-box;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    border: solid 2px red;
-    padding: 0px 170px 10px 170px;
-    gap: 70px;
+    outline: solid 2px red;
+    outline-offset: -2px;
+    padding: 0px 170px 50px 170px;
+    gap: 80px;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .header-signup-button{
     align-self: flex-start;
     width: 100px;
 }
+
+.info-title{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.picture-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tif,
+.funtik,
+.vasya,
+.kittens{
+    max-width: 100%;
+}
+
+.nav-line{
+    display:flex;
+    justify-content: space-between;
+    outline: 4px solid rgb(211, 96, 211);
+    flex-wrap: wrap;
+}
+
+.information{
+    background-color: white;
+}
+
+.picture{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+}
+
