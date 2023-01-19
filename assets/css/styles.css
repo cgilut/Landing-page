@@ -131,7 +131,7 @@ header{
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.3), -3px 0 5px rgba(0, 0, 0, 0.3);
 }
 
-.information{
+.information-container{
     background-color: white;
 
 }
@@ -142,6 +142,7 @@ header{
     text-align: center;
     width: 200px;
     border: dotted 2px black;
+    margin-bottom: 50px;
 }
 
 .main-container{
@@ -151,4 +152,30 @@ header{
     flex-direction: column;
     flex: 0 1 1455px;
     box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3), -10px 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.quote-container{
+    /* margin: auto; */
+    background-color: lightgray;
+    outline: 2px dotted blue;
+    display: flex;
+    
+}
+
+.quote{
+    outline: 2px dashed black;
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    outline: 2px solid purple;
+}
+
+.source{
+    outline: 2px solid red;
+    margin-left: auto;
 }
