@@ -155,7 +155,6 @@ header{
 }
 
 .quote-container{
-    /* margin: auto; */
     background-color: lightgray;
     outline: 2px dotted blue;
     display: flex;
@@ -167,6 +166,7 @@ header{
     margin: 50px auto 50px auto;
     display: flex;
     flex-direction: column;
+    flex: 0 1 500px;
 }
 
 .text{
@@ -179,3 +179,17 @@ header{
     outline: 2px solid red;
     margin-left: auto;
 }
+
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container{
+    display: flex;
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: blue;
+}
+
