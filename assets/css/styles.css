@@ -188,8 +188,11 @@ header{
 
 .call-to-action-container{
     display: flex;
+    align-items: center;
     border: 2px solid blue;
     border-radius: 20px;
     background-color: blue;
 }
+
+
 
