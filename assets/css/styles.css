@@ -189,10 +189,30 @@ header{
 .call-to-action-container{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     border: 2px solid blue;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: blue;
+    flex: 0 1 1000px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
+.call-to-action{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 99, 99);
+}
+
+.footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
