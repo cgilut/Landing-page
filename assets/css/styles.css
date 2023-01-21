@@ -1,8 +1,9 @@
 :root{
     /* =============== COLORS =============== */
-    --dark-background-color: #1f2937;
-    --button-color: #3882f6;
-    --quote-background-color: #e5e7eb;
+    --blue: #3882f6;
+    --dark-gray: #636363;
+    --light-gray: #d3d3d3;
+    --gray: #818181;
     --white-font-color: #f9faf8;
 }
 
@@ -13,13 +14,13 @@
 }
 
 body{
-    background-color: rgb(129, 129, 129);
+    background-color: var(--gray);
     display: flex; 
     justify-content: center;
 }
 
 header{
-    background-color: rgb(99, 99, 99);
+    background-color: var(--dark-gray);
     color: black;
     /* box-sizing: outline-box; */
     display: flex;
@@ -36,6 +37,7 @@ header{
     outline: 5px solid rgb(0, 255, 64);
     outline-offset: 4px;
     flex-wrap: wrap;
+    flex: 1;
 }
 
 .placeholder-img{
@@ -91,8 +93,8 @@ header{
 
 .header-container{
     box-sizing: outline-box;
-    display:flex;
-    flex-direction: column;
+    display: flex;
+    /* flex-direction: column; */
     justify-content: space-around;
     outline: solid 2px red;
     outline-offset: -2px;
@@ -155,7 +157,7 @@ header{
 }
 
 .quote-container{
-    background-color: lightgray;
+    background-color: var(--light-gray);
     outline: 2px dotted blue;
     display: flex;
     
@@ -207,12 +209,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(99, 99, 99);
+    background-color: var(--dark-gray);
 }
 
 .footer{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
