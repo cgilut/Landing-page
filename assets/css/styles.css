@@ -8,9 +8,11 @@
 }
 
 /* =============== FONT =============== */
+
 *{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    min-width: 200px;
 }
 
 body{
@@ -41,13 +43,16 @@ header{
 }
 
 .placeholder-img{
-    width: auto;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
     background: gray;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.3), -3px 0 5px rgba(0, 0, 0, 0.3);
+    /* flex: 0 1 auto; */
 }
 
 .header-links{
