@@ -180,7 +180,7 @@ header{
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    flex: 0 1 1455px;
+    flex: 0 1 1200px;
     box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3), -10px 0 10px rgba(0, 0, 0, 0.3);
 }
 
