@@ -27,20 +27,19 @@ body{
 header{
     background-color: var(--dark-gray);
     color: black;
-    /* box-sizing: outline-box; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 20px 0 20px 0;
-    outline: 6px solid orange;
     min-width: 120px;
+    border-bottom: 2px solid black;
+    /* box-shadow: 0px 40px 5px rgba(0, 0, 0, 0.3) */
 }
 
 .nav-line{
     display:flex;
     justify-content: space-between;
-    outline: 5px solid rgb(0, 255, 64);
-    outline-offset: 4px;
+    align-items: center;
     flex-wrap: wrap;
     flex: 1;
 }
@@ -55,20 +54,18 @@ header{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.3), -3px 0 5px rgba(0, 0, 0, 0.3);
-    /* flex: 0 1 auto; */
 }
 
 .header-links{
-    outline: 2px solid black;
-    outline-offset: 2px;
     display:flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     color: var(--light-gray-font-color);
     font-size: 18px;
-    /* flex: 1 1 0px; */
-    /* flex: 1; */
-    /* justify-content: flex-end; */
+    border-bottom: 
+    height: fit-content;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;  
 }
 
 .header-title{
@@ -81,22 +78,16 @@ header{
 }
 
 .link{
-    outline: 2px solid yellow;
-    outline-offset: -1px;
     min-width: 0px;
 }
 
 .header-logo{
-    outline: 2px solid rgb(0, 3, 158);
-    outline-offset: -4px;
     min-width: 50px;
-    /* width: 50px;
-    height: auto; */
     flex: 1 1 0px;
 }
 
 .logo{
-    width: 100px;
+    width: 150px;
     min-width: 50px;
     height: auto;
 }
@@ -104,21 +95,16 @@ header{
 .header-introduction{
     display: flex;
     justify-content: space-between;
-    outline: solid 4px rgb(95, 0, 104);
-    outline-offset: 2px;
     flex-wrap: wrap;
     gap: 20px;
-    /* flex: 1; */
 
 } 
 
 .header-main{
-    outline: 2px solid greenyellow;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    /* align-items: center; */
     flex: 0 1 480px;
     gap: 10px;
     color: var(--white-font-color);
@@ -127,18 +113,13 @@ header{
 .header-container{
     box-sizing: outline-box;
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-around;
-    outline: solid 2px red;
-    outline-offset: -2px;
     margin-bottom: 50px;
-    gap: 80px;
     flex: 0 1 1000px;
     flex-wrap: wrap;
 }
 
 .header-signup-button{
-    /* align-self: flex-start; */
     min-width: 100px;
     width: 100px;
     height: 40px;
@@ -148,6 +129,7 @@ header{
     color: var(--white-font-color);
     font-size: 20px;
     font-weight: 600;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.2), -3px 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .info-title{
@@ -162,7 +144,6 @@ header{
     flex-wrap: wrap;
     justify-content: space-evenly;
     max-width: 1200px;
-    border: 2px dashed black;
     margin: auto;
 }
 
@@ -182,7 +163,7 @@ header{
 
 .information-container{
     background-color: white;
-
+    border-bottom: 2px solid black;
 }
 
 .picture{
@@ -190,28 +171,24 @@ header{
     flex-direction: column;
     text-align: center;
     width: 200px;
-    border: dotted 2px black;
     margin-bottom: 50px;
 }
 
 .main-container{
-    outline: 2px solid black; 
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     flex: 0 1 1455px;
-    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3), -10px 0 10px rgba(0, 0, 0, 0.3); 
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3), -10px 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .quote-container{
     background-color: var(--light-gray);
-    outline: 2px dotted blue;
     display: flex;
-    
+    border-bottom: 2px solid black;
 }
 
 .quote{
-    outline: 2px dashed black;
     margin: 50px auto 50px auto;
     display: flex;
     flex-direction: column;
@@ -221,19 +198,18 @@ header{
 .text{
     display: flex;
     flex-wrap: wrap;
-    outline: 2px solid purple;
 }
 
 .source{
-    outline: 2px solid red;
     margin-left: auto;
+    border-bottom: 1px solid gray;  
 }
 
 .sign-up-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 4px dotted black;
+    border-bottom: 2px solid black;
 }
 
 .call-to-action-container{
@@ -247,24 +223,21 @@ header{
     margin-bottom: 80px;
     flex-wrap: wrap;
     color: var(--white-font-color);
-    outline: 2px solid red; 
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3), -10px 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .call-to-action-main{
-    outline: 2px solid white;
     flex-wrap: wrap;
     flex: 0 1 600px;
 }
 
 .call-to-action-button{
-    outline: 2px solid black;
     display: flex;
     justify-content: center;
 }
 
 .call-to-action-header{
     margin-top: 30px;
-    /* margin-bottom: 30px; */
     font-size: 36px;
     font-weight: 800;
 }
@@ -304,4 +277,32 @@ header{
 .source p{
     font-size: 25px;
     font-weight: 500;
+    margin-bottom: 5px;
 }
+
+#top{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 4;
+}
+
+ #middle-top{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 3;
+}
+
+
+#middle-bottom{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 2;
+}
+
+#bottom{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+
