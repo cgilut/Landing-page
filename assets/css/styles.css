@@ -68,6 +68,7 @@ header{
 .link{
     outline: 2px solid yellow;
     outline-offset: -1px;
+    min-width: 0px;
 }
 
 .header-logo{
@@ -126,6 +127,10 @@ header{
     max-width: 1200px;
     border: 2px dashed black;
     margin: auto;
+}
+
+.placeholder-img-container{
+    max-width: 490px;
 }
 
 .tif,
