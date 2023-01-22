@@ -10,8 +10,6 @@
     --dark-gray-font-color: #494949;
 }
 
-/* =============== FONT =============== */
-
 *{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -38,7 +36,6 @@ header{
     padding: 20px 0 20px 0;
     min-width: 120px;
     border-bottom: 2px solid black;
-    /* box-shadow: 0px 40px 5px rgba(0, 0, 0, 0.3) */
 }
 
 .nav-line{
@@ -309,5 +306,3 @@ header{
     position: relative;
     z-index: 1;
 }
-
-
